@@ -27035,7 +27035,7 @@
 			)
 		)
 	)
-	(gr_text "Kastenwagen PCB Chunky\nNoPunIn10Did\nPrototype 2023-04"
+	(gr_text "Kastenwagen PCB Chunky\nNoPunIn10Did Port by exen904\nRP2040 Prototype 2024-12"
 		(at 229.39375 89.69375 0)
 		(layer "F.SilkS")
 		(uuid "11c3fdc4-6d85-4e1f-a6bf-8ccc2c81c076")
