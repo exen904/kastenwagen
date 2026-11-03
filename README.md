@@ -9,7 +9,10 @@ Kastenwagen 48 is a similar keyboard that replaces the mini-numpad with a small 
 For more information, join the [NoPunIn10Key Discord](https://discord.gg/sku2Y6w).
 
 ## RP2040 PCB Port
-The PCB in this branch was ported for the use of a RP2040 Community Edition MCU, no Elite-C support! As the pinout of the Elite-C and the RP2040 community footprint is not exactly the same, one of the status LEDs was not working when using such an MCU. For that case, I switched the KiCad files to use a 0xCB Helios as base and changed some of the routing for the new pinout. All status LEDs are now confirmed working.
+The PCB in this branch was ported for the use of a 0xCB Helios, no Elite-C support! As the pinout of the Elite-C and the RP2040 community footprint is not exactly the same, one of the status LEDs was not working when using such an MCU. For that case, I switched the KiCad files to use a 0xCB Helios as base and changed some of the routing for the new pinout. All status LEDs are now confirmed working.
+
+> [!important]
+> The use of a 0xCB Helios is **required**, if you want all the Status LEDs to work. While the Helios is based in the RP2040 community footprint, GPIO11 is NOT routed on the other MCUs. GPIO11 drives the top status LED, if you can live without it, you can also use other MCUs like the Frood or the Splinky.
 
 ## Credit
 
